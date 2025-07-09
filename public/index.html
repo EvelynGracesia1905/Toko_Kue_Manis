@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Kue Manis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Toko Kue Manis</h1>
+    <p>Kue rumahan yang lezat dan segar setiap hari</p>
+  </header>
+
+  <section>
+    <h2>Produk Unggulan</h2>
+    <div class="product-list">
+      <div class="product-card">
+        <img src="beronis.jpg" alt="Brownies Coklat">
+        <p><strong>Brownies Coklat</strong></p>
+        <p>Rp25.000</p>
+      </div>
+      <div class="product-card">
+        <img src="cheseecake.jpg" alt="Cheesecake Stroberi">
+        <p><strong>Cheesecake Stroberi</strong></p>
+        <p>Rp35.000</p>
+      </div>
+      <div class="product-card">
+        <img src="lapis.jpg" alt="Kue Lapis Legit">
+        <p><strong>Kue Lapis Legit</strong></p>
+        <p>Rp150.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Hubungi Kami</h2>
+    <form id="contactForm" action="/contact" method="POST">
+      <input type="text" name="name" placeholder="Nama Anda" style="width:100%; padding:10px; margin-bottom:10px;"><br>
+      <input type="email" name="email" placeholder="Email Anda" style="width:100%; padding:10px; margin-bottom:10px;"><br>
+      <textarea name="message" placeholder="Pesan Anda" style="width:100%; padding:10px; height:100px;"></textarea><br>
+      <button type="submit" style="margin-top:10px; padding:10px 20px;">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Toko Kue Manis. All rights reserved.</p>
+  </footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
